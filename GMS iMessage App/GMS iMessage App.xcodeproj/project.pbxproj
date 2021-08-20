@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C31C721E9D373218B1E63B6 /* Pods_GMS_iMessage_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3069E69499E54CABB67C9D61 /* Pods_GMS_iMessage_App.framework */; };
 		6A4CC4CE26CF8161007AF95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4CC4CD26CF8161007AF95F /* Assets.xcassets */; };
 		6A4CC4D526CF8161007AF95F /* GMS iMessage App MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6A4CC4D426CF8161007AF95F /* GMS iMessage App MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6A4CC4DA26CF8161007AF95F /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4CC4D926CF8161007AF95F /* Messages.framework */; };
 		6A4CC4DD26CF8161007AF95F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CC4DC26CF8161007AF95F /* MessagesViewController.swift */; };
 		6A4CC4E026CF8161007AF95F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4CC4DE26CF8161007AF95F /* MainInterface.storyboard */; };
 		6A4CC4E226CF8161007AF95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4CC4E126CF8161007AF95F /* Assets.xcassets */; };
+		96E9F9163DD258A1CBCF2D22 /* Pods_GMS_iMessage_App_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7261F017D02B7274D645F63B /* Pods_GMS_iMessage_App_MessagesExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3069E69499E54CABB67C9D61 /* Pods_GMS_iMessage_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMS_iMessage_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4CC4CA26CF8160007AF95F /* GMS iMessage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GMS iMessage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4CC4CD26CF8161007AF95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4CC4CF26CF8161007AF95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		6A4CC4DF26CF8161007AF95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		6A4CC4E126CF8161007AF95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4CC4E326CF8161007AF95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7261F017D02B7274D645F63B /* Pods_GMS_iMessage_App_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMS_iMessage_App_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07C11342C80703427158F7 /* Pods-GMS iMessage App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMS iMessage App.debug.xcconfig"; path = "Target Support Files/Pods-GMS iMessage App/Pods-GMS iMessage App.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC694E91525275363FF32A2 /* Pods-GMS iMessage App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMS iMessage App.release.xcconfig"; path = "Target Support Files/Pods-GMS iMessage App/Pods-GMS iMessage App.release.xcconfig"; sourceTree = "<group>"; };
+		EE819AB4066D4728CB786451 /* Pods-GMS iMessage App MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMS iMessage App MessagesExtension.release.xcconfig"; path = "Target Support Files/Pods-GMS iMessage App MessagesExtension/Pods-GMS iMessage App MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
+		F48702EC3CD8735121691123 /* Pods-GMS iMessage App MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMS iMessage App MessagesExtension.debug.xcconfig"; path = "Target Support Files/Pods-GMS iMessage App MessagesExtension/Pods-GMS iMessage App MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A4CC4DA26CF8161007AF95F /* Messages.framework in Frameworks */,
+				96E9F9163DD258A1CBCF2D22 /* Pods_GMS_iMessage_App_MessagesExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB375AE24C1702BC8E7CE16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C31C721E9D373218B1E63B6 /* Pods_GMS_iMessage_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 				6A4CC4DB26CF8161007AF95F /* GMS iMessage App MessagesExtension */,
 				6A4CC4D826CF8161007AF95F /* Frameworks */,
 				6A4CC4CB26CF8160007AF95F /* Products */,
+				B374C2742AE435231465A8F3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4CC4D926CF8161007AF95F /* Messages.framework */,
+				3069E69499E54CABB67C9D61 /* Pods_GMS_iMessage_App.framework */,
+				7261F017D02B7274D645F63B /* Pods_GMS_iMessage_App_MessagesExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +130,18 @@
 			path = "GMS iMessage App MessagesExtension";
 			sourceTree = "<group>";
 		};
+		B374C2742AE435231465A8F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB07C11342C80703427158F7 /* Pods-GMS iMessage App.debug.xcconfig */,
+				DAC694E91525275363FF32A2 /* Pods-GMS iMessage App.release.xcconfig */,
+				F48702EC3CD8735121691123 /* Pods-GMS iMessage App MessagesExtension.debug.xcconfig */,
+				EE819AB4066D4728CB786451 /* Pods-GMS iMessage App MessagesExtension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,8 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4CC4EA26CF8161007AF95F /* Build configuration list for PBXNativeTarget "GMS iMessage App" */;
 			buildPhases = (
+				1EEC115F19C269D7BA4A43AD /* [CP] Check Pods Manifest.lock */,
 				6A4CC4C826CF8160007AF95F /* Resources */,
 				6A4CC4E926CF8161007AF95F /* Embed App Extensions */,
+				EB375AE24C1702BC8E7CE16B /* Frameworks */,
+				CA2E9386A1E9A727DC9A26B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4CC4E626CF8161007AF95F /* Build configuration list for PBXNativeTarget "GMS iMessage App MessagesExtension" */;
 			buildPhases = (
+				B3B9A36BF8BB92CD4D7FC1B4 /* [CP] Check Pods Manifest.lock */,
 				6A4CC4D026CF8161007AF95F /* Sources */,
 				6A4CC4D126CF8161007AF95F /* Frameworks */,
 				6A4CC4D226CF8161007AF95F /* Resources */,
+				820C34757E2AA2458CD813E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +239,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EEC115F19C269D7BA4A43AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMS iMessage App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820C34757E2AA2458CD813E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMS iMessage App MessagesExtension/Pods-GMS iMessage App MessagesExtension-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMS iMessage App MessagesExtension/Pods-GMS iMessage App MessagesExtension-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMS iMessage App MessagesExtension/Pods-GMS iMessage App MessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B9A36BF8BB92CD4D7FC1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMS iMessage App MessagesExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2E9386A1E9A727DC9A26B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMS iMessage App/Pods-GMS iMessage App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMS iMessage App/Pods-GMS iMessage App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMS iMessage App/Pods-GMS iMessage App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A4CC4D026CF8161007AF95F /* Sources */ = {
@@ -352,6 +470,7 @@
 		};
 		6A4CC4E726CF8161007AF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48702EC3CD8735121691123 /* Pods-GMS iMessage App MessagesExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +491,7 @@
 		};
 		6A4CC4E826CF8161007AF95F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE819AB4066D4728CB786451 /* Pods-GMS iMessage App MessagesExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +512,7 @@
 		};
 		6A4CC4EB26CF8161007AF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB07C11342C80703427158F7 /* Pods-GMS iMessage App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -407,6 +528,7 @@
 		};
 		6A4CC4EC26CF8161007AF95F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC694E91525275363FF32A2 /* Pods-GMS iMessage App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

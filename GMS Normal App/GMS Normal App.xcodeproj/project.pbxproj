@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB620049619576C3F3FF761 /* Pods_GMS_Normal_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B736A8DAD6575A755F94C9D8 /* Pods_GMS_Normal_App.framework */; };
 		6A4CC48626CF8053007AF95F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CC48526CF8053007AF95F /* AppDelegate.swift */; };
 		6A4CC48826CF8053007AF95F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CC48726CF8053007AF95F /* SceneDelegate.swift */; };
 		6A4CC48A26CF8053007AF95F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CC48926CF8053007AF95F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182C5BAA5B8AD4591989D317 /* Pods-GMS Normal App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMS Normal App.debug.xcconfig"; path = "Target Support Files/Pods-GMS Normal App/Pods-GMS Normal App.debug.xcconfig"; sourceTree = "<group>"; };
 		6A4CC48226CF8053007AF95F /* GMS Normal App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GMS Normal App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4CC48526CF8053007AF95F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A4CC48726CF8053007AF95F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		6A4CC48E26CF8054007AF95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4CC49126CF8054007AF95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A4CC49326CF8054007AF95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAB4BFF3457544958BED132 /* Pods-GMS Normal App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMS Normal App.release.xcconfig"; path = "Target Support Files/Pods-GMS Normal App/Pods-GMS Normal App.release.xcconfig"; sourceTree = "<group>"; };
+		B736A8DAD6575A755F94C9D8 /* Pods_GMS_Normal_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMS_Normal_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB620049619576C3F3FF761 /* Pods_GMS_Normal_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49822D7A390FC101599EF960 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				182C5BAA5B8AD4591989D317 /* Pods-GMS Normal App.debug.xcconfig */,
+				7CAB4BFF3457544958BED132 /* Pods-GMS Normal App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6A4CC47926CF8053007AF95F = {
 			isa = PBXGroup;
 			children = (
 				6A4CC48426CF8053007AF95F /* GMS Normal App */,
 				6A4CC48326CF8053007AF95F /* Products */,
+				49822D7A390FC101599EF960 /* Pods */,
+				9594CE9A0C42C04D92CAAA97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = "GMS Normal App";
 			sourceTree = "<group>";
 		};
+		9594CE9A0C42C04D92CAAA97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B736A8DAD6575A755F94C9D8 /* Pods_GMS_Normal_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4CC49626CF8054007AF95F /* Build configuration list for PBXNativeTarget "GMS Normal App" */;
 			buildPhases = (
+				C163676FBEC151327ECDD6F6 /* [CP] Check Pods Manifest.lock */,
 				6A4CC47E26CF8053007AF95F /* Sources */,
 				6A4CC47F26CF8053007AF95F /* Frameworks */,
 				6A4CC48026CF8053007AF95F /* Resources */,
+				243381AE3FDA29034FF6E25B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		243381AE3FDA29034FF6E25B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMS Normal App/Pods-GMS Normal App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMS Normal App/Pods-GMS Normal App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMS Normal App/Pods-GMS Normal App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C163676FBEC151327ECDD6F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMS Normal App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A4CC47E26CF8053007AF95F /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		6A4CC49726CF8054007AF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182C5BAA5B8AD4591989D317 /* Pods-GMS Normal App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		6A4CC49826CF8054007AF95F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAB4BFF3457544958BED132 /* Pods-GMS Normal App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
