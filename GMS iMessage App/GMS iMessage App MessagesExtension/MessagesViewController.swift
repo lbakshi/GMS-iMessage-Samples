@@ -11,7 +11,7 @@ import GoogleMaps
 
 class MessagesViewController: MSMessagesAppViewController {
     
-    let apiKey = "YOUR API KEY"
+    let apiKey = "Your API key"
     
     override func viewDidLoad() {
         super.viewDidLoad()
