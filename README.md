@@ -4,7 +4,7 @@ Two example apps used for product support with Google's iOS Map SDK
 ## How to run
 1. Download and install XCode
 2. Install cocoapods on MacOS using ```sudo gem install cocoapods``` if you don't already have it
-3. ```cd ../GMS\ Normal\ App``` and ```cd ../GMS\ iMessage\ App``` and follow the steps below for both the iMessage and Normal directories
+3. From the base directory do both ```cd ../GMS\ Normal\ App``` and ```cd ../GMS\ iMessage\ App``` and follow the steps below for both the iMessage and Normal directories
   1. ```pod install```
   2. open the ```.xcworkspace``` file in either directory
   3. Change the bundle identifier and development team to your own in .xcodeproj > Targets > General
