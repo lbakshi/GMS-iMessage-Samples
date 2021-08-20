@@ -7,12 +7,10 @@ target 'GMS iMessage App' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'GooglePlaces'
   pod 'GoogleMaps'
   inherit! :search_paths  
 
   target 'GMS iMessage App MessagesExtension' do
-    pod 'GooglePlaces'
     pod 'GoogleMaps'
     inherit! :search_paths
   end
